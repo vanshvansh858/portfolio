@@ -1,0 +1,78 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f0f0f;
+  color: #ffffff;
+}
+
+.home-content {
+  max-width: 800px;
+  padding: 40px;
+}
+
+.intro {
+  font-size: 18px;
+  color: #aaaaaa;
+  margin-bottom: 8px;
+}
+
+.name {
+  font-size: 56px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.role {
+  font-size: 28px;
+  font-weight: 400;
+  color: #00bcd4;
+  margin: 10px 0 20px;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #cccccc;
+  max-width: 650px;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.2s ease;
+}
+
+.btn.primary {
+  background-color: #00bcd4;
+  color: #000;
+}
+
+.btn.primary:hover {
+  background-color: #00a5bb;
+}
+
+.btn.secondary {
+  border: 1px solid #555;
+  color: #fff;
+}
+
+.btn.secondary:hover {
+  border-color: #00bcd4;
+  color: #00bcd4;
+}
+
+.extra {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #888;
+}
